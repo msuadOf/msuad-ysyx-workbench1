@@ -1,0 +1,5 @@
+chmod +x ./*.sh
+
+chmod +x ./utils/*.sh
+
+./utils/git_push.sh
