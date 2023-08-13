@@ -1,5 +1,5 @@
-TOPNAME = top
-NXDC_FILES = vsrc/top.nxdc
+TOPNAME = light
+NXDC_FILES = vsrc/pin.nxdc
 INC_PATH ?=
 
 VERILATOR = verilator
