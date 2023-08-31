@@ -1,6 +1,7 @@
 #!/bin/sh
 
-export MAX_THREAD=16
+export MAX_THREAD=2 #`nproc`
+echo "cpu:"  $MAX_THREAD
 
 export HOSTIP=$(cat /etc/resolv.conf | grep "nameserver" | cut -f 2 -d " ")
 
